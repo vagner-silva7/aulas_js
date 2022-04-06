@@ -1,2 +1,2 @@
 # aulas_js
- Aulas JavaScript
+ Aulas de JavaScript
