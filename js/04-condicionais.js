@@ -47,22 +47,23 @@ let nota1 = 8;
 let nota2 = 7;
 let media = (nota1 + nota2) / 2;
 let situacao =""; /* variaveis indefinida */
+let faltas = 10;
 
 
 console.log(`Aluno: ${aluno}`);
 console.log(`Notas: ${nota1} e ${nota2}`);
 console.log(`Media: ${media}`);
+console.log(`Faltas: ${faltas}`);
 
+/* && significa operador logico "e", quando precisamos avaliar mais de uma condição ao mesmo tempo, tipo: media e faltas */
 
-if(media >= 7){
+if(media >= 7 && faltas < 15){ 
     situacao = "Aprovado";
 } else {
     situacao = "Reprovado";
 }
 
-
 console.log(situacao);
-
 
 console.log("-----------------------------------");
 
