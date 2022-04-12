@@ -69,15 +69,6 @@ console.log("-----------------------------------");
 
 console.log("Loops exclusivos do JS");
 
-/* Acessar Arrays (vetor) */
-let alunoA = [ "Eduardo", "Vagner", "Thalia", "Claudio", "Jessica"];    
-
-
-// for/of (otimo para arrays)  */
-for ( let alunoA of alunoA ){
-    console.log(alunoA);
-}
-
 /* Acessar objetos */
 let livro = {
     titulo: "Senhor dos aneis",
@@ -89,6 +80,14 @@ let livro = {
 for ( let dados in livro ){
     console.log(livro[dados] );
 }
+
+/* Acessar Arrays (vetor) */
+// let alunoA = [ "Eduardo", "Vagner", "Thalia", "Claudio", "Jessica"];    
+
+
+// for/of (otimo para arrays)  */
+// for ( let alunoA of alunoA ){
+    // console.log(alunoA)}
 
 
 
