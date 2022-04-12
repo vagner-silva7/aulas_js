@@ -67,7 +67,8 @@ console.log( alunos.sort());
 
 console.log("-----------------------------------");
 
-console.log("Loops exclusivos do JS");
+console.log("Loops exclusivos do JS - objetos");
+
 
 /* Acessar objetos */
 let livro = {
@@ -81,16 +82,14 @@ for ( let dados in livro ){
     console.log(livro[dados] );
 }
 
+console.log("Loops exclusivos do JS - Array");
+
 /* Acessar Arrays (vetor) */
-// let alunoA = [ "Eduardo", "Vagner", "Thalia", "Claudio", "Jessica"];    
+let alunoA = [ "Eduardo", "Vagner", "Thalia", "Claudio", "Jessica"];    
 
 
 // for/of (otimo para arrays)  */
-// for ( let alunoA of alunoA ){
-    // console.log(alunoA)}
-
-
-
-
-
+for ( let aluno of alunoA ){
+    console.log(aluno);
+}
 
