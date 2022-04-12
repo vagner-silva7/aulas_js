@@ -70,12 +70,12 @@ console.log("-----------------------------------");
 console.log("Loops exclusivos do JS");
 
 /* Acessar Arrays (vetor) */
-let alunos = [ "Eduardo", "Vagner", "Thalia", "Claudio", "Jessica"];    
+let alunoA = [ "Eduardo", "Vagner", "Thalia", "Claudio", "Jessica"];    
 
 
 // for/of (otimo para arrays)  */
-for ( let alunos of alunos ){
-    console.log(alunos);
+for ( let alunoA of alunoA ){
+    console.log(alunoA);
 }
 
 /* Acessar objetos */
