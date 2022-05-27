@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+}
+
+.image {
+    position: relative;
+    width: 549px;
+    height: 200px;
+    /* abaixo visualiza temporariamente onde a imagem ficará */
+    border: 10px solid #fff; 
+    transform-style: preserve-3d; 
+}
+
+.image::before, .image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: 0.5s;
+    background-size: cover;
+    background-position: center;
+}
+
+.image::before {
+    background-image: url(/imagens/dedos.jpg);
+    transform-origin: left;
+    transform: translateX(100%) rotateY(90deg);
+}
+
+.image::after {
+    background-image: url(/imagens/pacoca.jpg);
+    transform-origin: right;
+    transform: translateX(0) rotateY(0);
+}
+
+.image:hover::before {
+    transform: translateX(0) rotateY(0);
+}
+
+.image:hover::after {
+    transform: translateX(-100%) rotateY(90deg);
+}
