@@ -16,7 +16,7 @@ body {
     width: 549px;
     height: 200px;
     /* abaixo visualiza temporariamente onde a imagem ficará */
-    border: 10px solid #fff; 
+    /* border: 10px solid #fff;  */
     transform-style: preserve-3d; 
 }
 
@@ -27,7 +27,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    transform: 0.5s;
+    transition: 0.5s;
     background-size: cover;
     background-position: center;
 }

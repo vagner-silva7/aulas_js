@@ -1,0 +1,11 @@
+
+.container .box .content .imagem {
+position: relative;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 500px 30px;
+transition: 0.5s; 
+} 
