@@ -2,12 +2,16 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #d8cbcb;
   }
+
+h1 {
+  margin-left: 20px;
+}  
    
-  .row {
+.row {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
 /* colocando somente tres imagens por pagina */ 
   	
@@ -33,7 +37,7 @@ body {
   } */
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-20px);
   cursor: pointer;
 }
  
@@ -59,7 +63,7 @@ body {
 } */
 
 .blue {
-    border-left: 3px solid #4895ff;
+    border-left: 10px solid #4895ff;
   }
 
 h2 {
@@ -68,9 +72,9 @@ h2 {
  }
    
 .green {
-    border-left: 3px solid #3bb54a;
+    border-left: 10px solid #3bb54a;
   }
    
 .red {
-    border-left: 3px solid #b3404a;
+    border-left: 10px solid #b3404a;
   }
