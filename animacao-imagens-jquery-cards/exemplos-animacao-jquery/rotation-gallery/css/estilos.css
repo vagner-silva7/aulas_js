@@ -15,9 +15,40 @@ body{
     min-height: 100%;
 }
 
+.titulo {
+    position: relative;
+    top: 20px; 
+    bottom: 500px;
+    width: 50px; 
+    height: 200px; 
+}
+
+.format_texto {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 20px;
+    width: 200px; 
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+.format_botao {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    top: 100px;
+    width: 200px; 
+    font-size: 1rem;
+    height: 40px;
+    background-color: red;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
 .box{
     position: relative;
-    top: 230px; /* 230px */
+    top: 400px; /* 230px */
     width: 200px; /* 200px */
     height: 200px; /* 200px */
     transform-style: preserve-3d;
@@ -55,3 +86,4 @@ body{
     width: 100%;
     -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
 }
+
