@@ -1,2 +1,2 @@
-# animacao-imagens-jquery-cards
- animacao-imagens-jquery-cards
+# animacao-imagens
+ Projeto realizado após fim do curso (SBD)
